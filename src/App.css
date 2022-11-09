@@ -1,0 +1,252 @@
+.navbar{
+
+  background: linear-gradient(180deg, #180D3D 41.26%, rgba(24, 14, 61, 0) 114.41%);
+
+  color: #FFFFFF;
+}
+
+
+               
+.navbar .nav-link{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+text-transform: uppercase;
+
+}
+.navbar .nav-link:hover{
+background-color: #178C8C;
+}
+
+
+.nav-btn,.home-btn,.sell-btn{
+  width: 222px;
+height: 52px;
+background-color: #178C8C;
+border-radius: 16px;
+color: #FFFFFF;
+border:0px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+transition: all 0.3s;
+}
+.nav-btn:hover,.home-btn:hover,.sell-btn:hover{
+  background-color:#ffffff ;
+  color:#178C8C;
+}
+/* this is home page css */
+.home{
+  height: 90vh;
+ /* background: url('../src/images/home.png') no-repeat center/cover; */
+ background-repeat: no-repeat;
+
+ background-position: center;
+ background-size: cover;
+
+opacity:0.7;
+ 
+}
+
+.home-heading{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+  /* identical to box height */
+  
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+
+}
+
+
+.heading{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 46px;
+line-height: 69px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+}
+
+
+.para{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+}
+
+/*  */
+.col-md-3 .card{
+  background: rgba(255, 255, 255, 0.1);
+  border: 0.5px solid #B9B9B9;
+}
+.col-md-4 .card{
+  background: rgba(255, 255, 255, 0.1);
+  border: 0.5px solid #B9B9B9;
+}
+.card-title{
+  Font-family: Poppins;
+  Font-style: SemiBold;
+  Font-size: 20px;
+  color: #FFFFFF;
+}
+
+p{
+  text-align: justify;
+}
+.channerimg{
+ background: url('../src/images/channelcard.png') no-repeat center/cover;
+ height: 250px;
+
+}
+.channel2img{
+  background: url('../src/images/channelcard2.png') no-repeat center/cover;
+  height: 250px;
+ }
+.channel-card{
+  font-family: Poppins;
+  font-style: SemiBold;
+  font-size: 24px;
+  line-height: 36px;
+  color:#FFFFFF;
+
+ 
+}
+.para2{
+  font-family:Inter;
+ font-style:Regular;
+  font-size:14px;
+  line-height:20px;
+ text-align:Justifiy;
+ cololr:#B9B9B9;
+
+
+
+}
+li{
+  list-style: none;
+}
+.footer-circle{
+  width: 30px;
+  height: 30px;
+  background-color: #332B4F;
+  margin: 5px;
+  border-radius:100%;
+  color: #FFFFFF;
+ 
+  display: flex;
+  justify-content: center;
+align-items: center;
+}
+.footer .logo{
+  height:50px;
+  width:50px;
+}
+/* .footer .images{
+  height:100px;
+  width:30px;
+} */
+.bkcolor{
+
+  background-color:#180547; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right,#4E0B5A, rgba(255,100,044,0),#4E0B5A);
+
+color:#FFFFFF;
+
+}
+
+.footer{
+  background-color:#180547; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, rgba(255,100,044,0),#4E0B5A);
+}
+
+.footer .para{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  
+  text-align: justify;
+  font-feature-settings: 'salt' on, 'liga' off;
+  
+  color: #B9B9B9;
+}  
+/* .card{
+  background-color: #4E0B5A;
+} */
+ 
+.footer li .links{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  text-decoration: none;
+  
+  color: #B9B9B9;
+}
+.footer .text-center{
+  color:#FFFFFF;
+  text-decoration: none;
+}
+Form .form-btn{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 35px;
+border-radius: 12px;
+  width: 140px;
+height:40px;
+border: 0;
+}
+Form .signin-active{
+background-color: #14113D;
+color: #FFFFFF;
+
+
+}
+Form .sign-sub{
+  background-color: #178C8C;
+  color: #FFFFFF;
+}
+Form .form-links{
+  text-decoration: none;
+  color: #333333;
+}
+Form .form-google{
+  border:1px solid #cfcccc;
+  height:38px;
+  border-radius: 4px;
+  text-align: center;
+
+}
+Form .form-heading{
+  color:#333333;
+}
+/* competion components */
+.col-md-3 .card-competition{
+  background: rgba(16, 207, 207, 0.1);
+
+}
